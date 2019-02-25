@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif, Microsoft JhengHei;
+}
+
+
+/* -------------header------------------- */
+header{
+        background-color:#AABBCC;
+        width: 100%;
+        text-align: center;
+        }
+
+.name{
+    font-size: 3rem;
+    color:#fff;
+    line-height: 6rem;
+    margin:0 auto;
+    }
+.p{
+    /* width: 10%; */
+    font-size: 1rem;
+    border: 1px solid #000;
+    margin: 20px auto;
+    padding: 10px 20px;
+
+    }
+.line{
+    display: inline-block;
+    width:30%;
+    border: 2px solid #000;
+    background-color: #000;
+
+}
+.myself{
+    margin-top: 15px;
+    line-height: 2.2rem;
+}
+/* -----------------中間區域------------------------- */
+main{
+    display: flex;
+    background-image: url(images/screen-1.png);
+    background-size: cover;
+    background-position: center center fixed;
+    background-attachment: fixed;
+}
+/* -----------------左邊區塊------------------------- */
+.left{
+    width: 30%;
+    height: 100%;
+ 
+    display: flex;
+    flex-direction: column;
+    border-right: 10px double #7e8694;
+    margin-top: 20px; 
+
+}
+/* ----------------------左邊照片---------------------- */
+.photo{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.photo img{
+    width:100%;
+    /* height:250px; */
+    position: relative;
+    left: 0px;
+    top: -20px;
+}
+/* ---------------左邊個人資料--------------- */
+.personal,.contact,.Language_ability{
+    width: 70%;
+    /* height: 300px; */
+    line-height: 2.5rem;
+    margin: 15px auto;
+}
+.personal h3,.contact h3,.Language_ability h3{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.personal h4,.contact h4,.Language_ability h4{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+/* -----------------右邊區塊------------------------- */
+.right{
+    width: 70%;
+    height: 100%;
+    /* background-color: #30afcf; */
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+/* ---------education------------- */ 
+.education{
+    width: 80%;
+    line-height: 2.2rem;
+    margin: 60px auto 10px auto;
+}
+.education_1,.education_2{
+    margin: 10px auto;
+    width: 70%;
+}
+.education h3{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.education h4{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+/* ---------experience------------- */ 
+.experience{
+    width: 80%;
+    line-height: 2.2rem;
+    margin: 40px auto 20px auto;
+}
+.experience_1,.experience_2,.experience_3{
+    margin: 10px auto;
+    width: 70%;
+}
+.experience h3{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.experience h4{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* ---------skills------------- */ 
+.skills{
+    width: 80%;
+    line-height: 2.2rem;
+    margin: 35px auto 20px auto;
+}
+.all_skills{
+    display: flex;
+    margin: 10px auto;
+    width: 70%;
+}
+.front_end,.back_end,.tool{
+    margin: 10px auto;
+    width: 50%;
+}
+.skills h3{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.skills h4{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.front_end{
+    /* display: flex; */
+   
+}
+
+.skill_p{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #8383b68e;
+    height: 20px;
+    text-align: center;
+}
+
